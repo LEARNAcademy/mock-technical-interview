@@ -7,6 +7,6 @@ describe("removeLastLetter", () => {
   })
 })
 
-function removeLastLetter(stringOfWords){
+function removeLastLetter(arrayOfWords){
 
 }

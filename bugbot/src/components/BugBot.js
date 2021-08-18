@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class BugBot extends Component {
 
   bugFeature = (input) => {
-    response = ["it", "is", "not", "a", "bug", "it", "is", "a", "feature"]
+    let response = ["it", "is", "not", "a", "bug", "it", "is", "a", "feature"]
   }
 
   render() {

@@ -12,26 +12,26 @@ class App extends Component{
   }
 
   robot = (e) => {
-    this.setState({ userInput: e.target.value })
+    this.setState({userInput: e.target.value})
   }
 
   render(){
-    let { userInput } = this.state
+    let {userInput} = this.state
     return(
       <div>
         <h1>Bug Bot</h1>
         <img
-          src={ bug }
+          src={bug}
           alt="junebug clipart"
         />
         <h3>Enter text here:</h3>
         <input
-          onChange={ this.robot }
-          value={ userInput }
+          onChange={this.robot}
+          value={userInput}
         />
         <br />
         <div className="outcome">
-          <BugBot userInput={ userInput } />
+          <BugBot userInput={userInput} />
         </div>
       </div>
     )

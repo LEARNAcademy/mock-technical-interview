@@ -10,6 +10,4 @@ describe("isAnagram", () => {
   })
 })
 
-function isAnagram(s1, s2){
-
-}
+function isAnagram(string1, string2) {}

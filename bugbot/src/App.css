@@ -1,14 +1,17 @@
-body{
+body {
   margin: 1em;
   text-align: center;
 }
-img{
+
+img {
   height: 5em;
 }
-input{
+
+input {
   padding: 1em;
   width: 20em;
 }
-.outcome{
+
+.outcome {
   margin: 1em;
 }

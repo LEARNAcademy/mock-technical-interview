@@ -6,7 +6,7 @@ import "./App.css"
 const App = () => {
   const [userInput, setUserInput] = useState("")
 
-  const robot = (e) => {
+  const handleUserInput = (e) => {
     setUserInput(e.target.value)
   }
 
@@ -15,7 +15,7 @@ const App = () => {
       <h1>Bug Bot</h1>
       <img src={bug} alt="junebug clipart" />
       <h3>Enter text here:</h3>
-      <input onChange={robot} value={userInput} />
+      <input onChange={handleUserInput} value={userInput} />
       <br />
       <div className="outcome">
         <BugBot userInput={userInput} />

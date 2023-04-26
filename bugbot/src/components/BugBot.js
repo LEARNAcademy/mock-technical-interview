@@ -1,8 +1,8 @@
 import React from "react"
 
 const BugBot = ({ userInput }) => {
-  const bugFeature = (input) => {
-    let response = [
+  const fromBugToFeature = (input) => {
+    const response = [
       "it ",
       "is ",
       "not ",
@@ -16,6 +16,7 @@ const BugBot = ({ userInput }) => {
     return input
   }
 
-  return <h4>{bugFeature(userInput)}</h4>
+  return <h4>{fromBugToFeature(userInput)}</h4>
 }
+
 export default BugBot
